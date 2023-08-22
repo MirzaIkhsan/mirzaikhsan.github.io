@@ -55389,8 +55389,9 @@ return A.Q($async$qR,r)},
 S(a){return new A.pS(new A.a_q(this),B.Dw,null)}}
 A.a_u.prototype={
 $1(a){var s,r=this.a,q=document.createElement("video")
+q.webkitExitFullscreen()
 q.autoplay=!0
-q.muted=!0
+q.muted=!1
 s=window.innerWidth
 s.toString
 q.width=s
@@ -55471,7 +55472,7 @@ A.Jy.prototype={
 aN(){var s,r,q=this
 q.ba()
 s=document.createElement("video")
-s.toString
+s.webkitExitFullscreen()
 s.src=q.a.c
 s.autoplay=!0
 s.muted=!1
