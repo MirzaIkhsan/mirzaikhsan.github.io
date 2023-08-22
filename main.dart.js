@@ -55393,7 +55393,7 @@ A.a_v.prototype={
 $1(a){var s,r=this.a,q=document.createElement("video")
 q.webkitExitFullscreen()
 q.autoplay=!0
-q.muted=!0
+q.muted=!1
 s=window.innerWidth
 s.toString
 q.width=s
