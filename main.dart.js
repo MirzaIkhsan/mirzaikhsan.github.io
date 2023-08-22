@@ -55393,7 +55393,7 @@ S(a){return new A.pS(new A.a_r(this),B.Dw,null)}}
 A.a_v.prototype={
 $1(a){var s,r=this.a,q=document.createElement("video")
 q.webkitExitFullscreen()
-q.autoplay=!0
+q.autoplay=!1
 q.muted=!0
 s=window.innerWidth
 s.toString
