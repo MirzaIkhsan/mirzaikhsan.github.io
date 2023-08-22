@@ -55133,7 +55133,7 @@ aN(){var s,r,q=this
 q.ba()
 s=document.createElement("video")
 s.autoplay=!0
-s.muted=!1
+s.muted=!0
 r=window.innerWidth
 r.toString
 s.width=r
