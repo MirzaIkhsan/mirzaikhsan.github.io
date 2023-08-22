@@ -55132,7 +55132,6 @@ A.Gg.prototype={
 aN(){var s,r,q=this
 q.ba()
 s=document.createElement("video")
-s.webkitExitFullscreen()
 s.autoplay=!0
 s.muted=!1
 r=window.innerWidth
@@ -55148,6 +55147,8 @@ B.aw.om(r,B.aw.nA(r,"object-fit"),"cover","")
 r=s.style
 r.toString
 B.aw.om(r,B.aw.nA(r,"transform"),"scaleX(-1)","")
+s.setAttribute("playsinline","true")
+s.webkitExitFullscreen()
 q.d=s
 $.a5Q()
 $.oq().Fg("preview",new A.a_a(q),!0)
@@ -55251,7 +55252,7 @@ A.Jm.prototype={
 aN(){var s,r,q=this
 q.ba()
 s=document.createElement("video")
-s.webkitExitFullscreen()
+s.toString
 s.src=q.a.c
 s.autoplay=!0
 s.muted=!1
@@ -55268,6 +55269,8 @@ B.aw.om(r,B.aw.nA(r,"object-fit"),"cover","")
 r=s.style
 r.toString
 B.aw.om(r,B.aw.nA(r,"transform"),"scaleX(-1)","")
+s.setAttribute("playsinline","true")
+s.webkitExitFullscreen()
 q.d=s
 $.a5Q()
 $.oq().Fg("result",new A.a0F(q),!0)},
